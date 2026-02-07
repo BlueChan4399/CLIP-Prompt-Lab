@@ -10,13 +10,12 @@ Exploring the impact of prompt engineering on CLIP's zero-shot performance.
 - **集成去偏置**: Prompt Ensemble 是提升鲁棒性性价比最高的方案。
 - **语言纯净度**: 使用中文 CLIP 时，必须强制“去英化”，中英混杂会导致性能崩盘。
 
-## 📂 Repository Structure
-.
-├── 📂 data_loader       # CIFAR-100 / Caltech-101 数据加载代码
-├── 📂 prompts           # 核心：我们收集整理的 Prompt 模板库
-│   ├── english_templates.json  # 方案A 用到的模板
-│   └── chinese_templates.json  # 方案B 用到的模板 (含视觉陷阱)
-├── 📂 experiments       # 实验代码
-│   ├── scheme_a_structure.py   # 方案A：结构对比
-│   └── scheme_b_lingual.py     # 方案B：中英对比
-└── 📄 README.md
+## Repository Structure
+-data_loader       # CIFAR-100 / Caltech-101 数据加载代码
+-prompts           # 核心：我们收集整理的 Prompt 模板库
+english_templates.json  # 方案A 用到的模板
+chinese_templates.json  # 方案B 用到的模板 (含视觉陷阱)
+-experiments       # 实验代码
+scheme_a_structure.py   # 方案A：结构对比
+scheme_b_lingual.py     # 方案B：中英对比
+-README.md
