@@ -1,2 +1,8 @@
-# CLIP-Prompt-Lab
-Exploring the impact of prompt engineering on CLIP's zero-shot classification. Comparative experiments on manual templates, ensembling, and cross-lingual robustness (OpenAI vs. CN-CLIP).
+CLIP-Prompt-Lab is a research-oriented repository for exploring Zero-shot Image Classification using Multimodal CLIP models.
+
+This project systematically investigates how Prompt Engineering affects model performance across two dimensions:
+
+Structure: Comparing baseline, standard, descriptive, and Ensemble strategies on CIFAR-100.
+
+Language: Analyzing cross-lingual robustness and semantic sensitivity between OpenAI CLIP and Chinese-CLIP on Caltech-101.
+#clip #prompt-engineering#zero-shot-classification#multimodal#chinese-clip#cifar100
