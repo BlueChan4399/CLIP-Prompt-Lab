@@ -11,11 +11,7 @@ Exploring the impact of prompt engineering on CLIP's zero-shot performance.
 - **语言纯净度**: 使用中文 CLIP 时，必须强制“去英化”，中英混杂会导致性能崩盘。
 
 ## Repository Structure
-### data_loader       # CIFAR-100 / Caltech-101 数据加载代码
-### -prompts           # 核心：我们收集整理的 Prompt 模板库
-#### English_templates.json  # 方案A 用到的模板
-#### Chinese_templates.json  # 方案B 用到的模板 (含视觉陷阱)
-### experiments       # 实验代码
-#### scheme_a_structure.py   # 方案A：结构对比
-#### scheme_b_lingual.py     # 方案B：中英对比
-### README.md
+- **data_loader** # CIFAR-100 / Caltech-101 数据加载代码
+- **prompts**: English_templates.json Chinese_templates.json #核心：我们收集整理的 Prompt 模板库
+- **experiments**: scheme_a_structure.py scheme_b_lingual.py # 实验代码
+- **README.md**
